@@ -1,0 +1,276 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <block type="s4d_login" id=")O7+PL3eS1Br}h;?X9N$" x="288" y="163">
+    <value name="TOKEN">
+      <block type="text" id="a7JxIIyK[Yr~TPL^-{W:">
+        <field name="TEXT">NjUyMjg2MTEzMTQ2NDcwNDEw.XemOyA.VxBdIoUxfk__FuZ8MmccOUQMhbc</field>
+      </block>
+    </value>
+  </block>
+  <block type="s4d_on_message" id="Y.,}sIV~F;k0FVXhiM5+" x="-686" y="229">
+    <statement name="STATEMENTS">
+      <block type="controls_if" id="F]3g=fU$G}d+l8^y`b[A">
+        <value name="IF0">
+          <block type="logic_compare" id="%~-1o_PW=iuo_w}n}Gdq">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="s4d_message_content" id=")bn!.sfdfu_r+{ayJEbt"></block>
+            </value>
+            <value name="B">
+              <block type="text" id="nR`q6=0a^#Kj+mO-?Sm}">
+                <field name="TEXT">!ping</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="s4d_reply" id="dvN?}^o,|1?4oj982W4z">
+            <value name="CONTENT">
+              <block type="text" id="A91R~,$O!z)Hxu?L|*t,">
+                <field name="TEXT">pong!</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+  <block type="s4d_on_message" id="*.Ze+yg#80{PPR4]cVo)" x="-203" y="238">
+    <statement name="STATEMENTS">
+      <block type="controls_if" id="*vZyWb777;i*=+erJR)(">
+        <value name="IF0">
+          <block type="logic_compare" id="pLEdcJQiQ}t~_YkG^1-T">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="s4d_message_content" id="6Qb!=H3j(xx)%1XGp``B"></block>
+            </value>
+            <value name="B">
+              <block type="text" id="/10[zA_F*bj5w?fs%MK)">
+                <field name="TEXT">!ping</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="s4d_reply" id="SITWSmVZZ^P)j)_9n?@p">
+            <value name="CONTENT">
+              <block type="text" id="o@t6IuJH/)*7%m$r|-hN">
+                <field name="TEXT">pong!</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+  <block type="s4d_on_message" id="Qx+aIDM=_,mj^tl$vGmW" x="288" y="238">
+    <statement name="STATEMENTS">
+      <block type="controls_if" id="Cr$f.P2*Nq2Dl}?D!r`(">
+        <value name="IF0">
+          <block type="logic_compare" id="oq-Tf{oSnv,],{N*FSF|">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="s4d_message_content" id="pyFMNvR6J#o6Ky/UA~]f"></block>
+            </value>
+            <value name="B">
+              <block type="text" id=";[??XKp36YJf2U}j2_}e">
+                <field name="TEXT">h!ping</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="s4d_reply" id="wgo^7yFoMz,K{AaMl6L)">
+            <value name="CONTENT">
+              <block type="text" id="N-4C!JnJCe,s$75i%8Ce">
+                <field name="TEXT">Pong!</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+  <block type="s4d_on_message" id="3ivA*!jxeA:4eHVW$0(z" x="-685" y="491">
+    <statement name="STATEMENTS">
+      <block type="controls_if" id="zMKE{v1JBTGR}7tr,R-#">
+        <value name="IF0">
+          <block type="logic_compare" id="Nrhu5-,elWR1u8AiEzk:">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="s4d_message_content" id=";w-1uLLT#FahZ7kM7WmM"></block>
+            </value>
+            <value name="B">
+              <block type="text" id="kXiA^^qrT.hhcn81c?eD">
+                <field name="TEXT">!ping</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="s4d_reply" id="BSd_MiCtH$xp@m(ftjCH">
+            <value name="CONTENT">
+              <block type="text" id="NNx%fus+QG;!p($eik,o">
+                <field name="TEXT">pong!</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+  <block type="s4d_on_message" id="a|I-Mbc(qVUR~1cwLRWL" x="-205" y="487">
+    <statement name="STATEMENTS">
+      <block type="controls_if" id="zf(xGc#dp401toA#g7!e">
+        <value name="IF0">
+          <block type="logic_compare" id="j]xO}sDvDJ?4*M@NQOb@">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="s4d_message_content" id="mWNvKp1~-J_Lqk!lBE,b"></block>
+            </value>
+            <value name="B">
+              <block type="text" id="XG0O[ffq-B$?Hs~mgKKG">
+                <field name="TEXT">!ping</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="s4d_reply" id=".r}[kT_QCuy(I$YNBiDB">
+            <value name="CONTENT">
+              <block type="text" id="u]7zxHA5dKgQ1`b2yco{">
+                <field name="TEXT">pong!</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+  <block type="s4d_on_message" id="`Q$-+NgIQ(|C.rVDVH=;" x="291" y="473">
+    <statement name="STATEMENTS">
+      <block type="controls_if" id="i9d=nYPMR|tC@9W0@)5+">
+        <value name="IF0">
+          <block type="logic_compare" id="p=+iugA}Sb:p}8NIMNe-">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="s4d_message_content" id="Y)R@TmDBW^H_E{6TMYh_"></block>
+            </value>
+            <value name="B">
+              <block type="text" id="*:jFfX]P%,_aszn8r$oJ">
+                <field name="TEXT">h!help</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="s4d_reply" id=";Y{!KO9iP3Zxs/~Z?LAP">
+            <value name="CONTENT">
+              <block type="text" id="vP9$l7X+^-(zeVY?6?}u">
+                <field name="TEXT">Commands List - Coming Soon</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+  <block type="s4d_on_message" id="P@t/6f9:MYH:g7.N$J%n" x="-685" y="733">
+    <statement name="STATEMENTS">
+      <block type="controls_if" id="x)fVPiUAdz@Q{#{FclAO">
+        <value name="IF0">
+          <block type="logic_compare" id="k@ge@%6t6~-HS+xRa.4=">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="s4d_message_content" id=";YP:c+6H3)0|W;}g:j7f"></block>
+            </value>
+            <value name="B">
+              <block type="text" id="+Kgxp%xylx+8cdp9aM#D">
+                <field name="TEXT">!ping</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="s4d_reply" id="lbWy,3Alb[O^[r8+a;D7">
+            <value name="CONTENT">
+              <block type="text" id="[aj!X6a2t|X2{6]Q%+x4">
+                <field name="TEXT">pong!</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+  <block type="s4d_on_message" id="z%:,XqK4?j/w]D#G$v,I" x="-205" y="727">
+    <statement name="STATEMENTS">
+      <block type="controls_if" id="G[3*?$RUys?W3[it5=c+">
+        <value name="IF0">
+          <block type="logic_compare" id="KZhys0WBQ+`3J8YJ#]_U">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="s4d_message_content" id="vN[77YeSvdUJ!w:CG:E4"></block>
+            </value>
+            <value name="B">
+              <block type="text" id="dg]DiyN?t!;1w$!.`z:b">
+                <field name="TEXT">!ping</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="s4d_reply" id="1,F=I5wlg=-ISIYKW0a_">
+            <value name="CONTENT">
+              <block type="text" id="}]_0a4^o5/Xp;3p-``6L">
+                <field name="TEXT">pong!</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+  <block type="s4d_on_message" id="cORe|kv1v)^Zjf|td567" x="294" y="713">
+    <statement name="STATEMENTS">
+      <block type="controls_if" id="|mcauxh(50#G/E+g.c%B">
+        <value name="IF0">
+          <block type="logic_compare" id="F!1ZW~*-vU=;{gG!G`GZ">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="s4d_message_content" id="2$j%-p1VeYyF0p}Mtg^R"></block>
+            </value>
+            <value name="B">
+              <block type="text" id="YBYxM5IFw5@;4xzaaH!h">
+                <field name="TEXT">h!embed</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="s4d_reply" id="9|;pEAOA,O;)P*RU_iSr">
+            <value name="CONTENT">
+              <block type="s4d_message_embed" id="$iTftP^eBYRYa-4NO2C{">
+                <mutation xmlns="http://www.w3.org/1999/xhtml" message="true" color="true" title="true" image="true" footer="true"></mutation>
+                <value name="MESSAGE">
+                  <block type="text" id="(doz3b4KTlyXfQ}cZ^N.">
+                    <field name="TEXT">I love embeds, but they're hard to code.</field>
+                  </block>
+                </value>
+                <value name="COLOR">
+                  <block type="colour_picker" id="`Y;86xBN`,t}eFm,GgRn">
+                    <field name="COLOUR">#ff0000</field>
+                  </block>
+                </value>
+                <value name="TITLE">
+                  <block type="text" id="H|^8cUa;0DQ+K]DYYW}1">
+                    <field name="TEXT">Embeds</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+</xml>
